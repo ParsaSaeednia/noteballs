@@ -42,7 +42,9 @@ import { onClickOutside } from '@vueuse/core'
 
 const showMobileNav = ref(false)
 
-/*click outside to close*/
+/*
+  click outside to close
+*/
 
 
 const navbarMenuRef = ref(null)
