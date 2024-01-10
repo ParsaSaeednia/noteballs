@@ -26,7 +26,6 @@
 */
 
 import { computed, reactive } from 'vue'
-import { useStoreNotes } from '@/stores/storeNotes'
 import ModalDeleteNote from './ModalDeleteNote.vue';
 
 /*
@@ -40,11 +39,7 @@ const props = defineProps({
   }
 })
 
-/*
-  store
-*/
 
-const storeNotes = useStoreNotes()
 
 /*
   character length
